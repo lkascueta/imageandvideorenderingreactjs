@@ -5,7 +5,7 @@ import videohalloffame from './assets/video/halloffame.mp4';
 import ReactPlayer from 'react-player';
 import './App.css';
 
-import { Card, Button, Container, Row, Col, Image } from 'react-bootstrap';
+import { Card, Container, Row, Col } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
