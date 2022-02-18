@@ -15,7 +15,6 @@ function App() {
     <div className="App">
 
       <ReactPlayer
-                      controls
                       url={[videohalloffame]}
                       width='100%'
                       height='100%'
