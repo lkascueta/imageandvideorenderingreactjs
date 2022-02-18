@@ -1,13 +1,14 @@
 
 import React from 'react';
-import cardimage from './assets/images/cardimage.jpg';
+
 import videohalloffame from './assets/video/halloffame.mp4';
 import ReactPlayer from 'react-player';
 import './App.css';
 
-import { Card, Container, Row, Col, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
                       url={[videohalloffame]}
                       width='100%'
                       height='100%'
-                    />  
+                      playing= 'true'
+                      loop= 'true'
+                      muted='true'
+                    /> 
 
     </div>
   );
